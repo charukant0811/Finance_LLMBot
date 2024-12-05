@@ -10,12 +10,12 @@ The **News Research Tool** is designed to streamline the process of extracting, 
 - Ask questions via an **LLM (ChatGPT)** and receive context-rich answers along with source URLs.  
 - Embedding vectors are stored locally in **pickle** format for easy reuse.  
 
-##Key Processes
+## Key Processes
 Text Processing: Articles are split into manageable chunks for embedding generation.
 Embedding Storage: FAISS indexes embeddings and stores them locally in pickle format for efficiency.
 Querying: Users can interact with the system to retrieve answers and relevant article references.
 
-##Dependencies
+## Dependencies
 Python
 Streamlit
 OpenAI API
